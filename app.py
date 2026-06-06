@@ -28,13 +28,8 @@ BLUE="#378ADD"; BLUE_L="#B5D4F4"; GREEN="#639922"
 AMBER="#EF9F27"; RED="#E24B4A"; GRAY="#D3D1C7"
 
 st.markdown("""
-<<<<<<< HEAD
-<h1 style='font-size:26px;font-weight:500;margin-bottom:2px;'>Swipe Smarter or Swipe More?</h1>
+<h1 style='font-size:27px;font-weight:500;margin-bottom:2px;'>Swipe Smarter or Swipe More?</h1>
 <p style='color:#888780;font-size:16px;margin-bottom:10px;'>Investigating the impact of excessive swiping on dating success &nbsp;·&nbsp; ML Project Dashboard</p>
-=======
-<h1 style='font-size:22px;font-weight:500;margin-bottom:4px;'>Swipe Smarter or Swipe More?</h1>
-<p style='color:#888780;font-size:13px;margin-bottom:10px;'>Investigating the impact of excessive swiping on dating success &nbsp;·&nbsp; Project Dashboard</p>
->>>>>>> b3816f81789a10d7621f5dd9f43eaa8b2c93ffde
 <span class="tag">50,000 records</span>
 <span class="tag">5 models trained</span>
 <span class="tag">Target: dating_success</span>
@@ -86,13 +81,8 @@ with tab1:
             ("Model Evaluation","#EAF3DE","#27500A"),("Best Model","#534AB7","#ffffff")]
     for col,(label,bg,fg) in zip(pc,stages):
         with col:
-<<<<<<< HEAD
             st.markdown(f'<div style="background:{bg};color:{fg};border-radius:10px;padding:10px 4px;text-align:center;font-size:16px;font-weight:500;">{label}</div>',unsafe_allow_html=True)
     st.markdown('<p style="font-size:13px;color:#888780;margin-top:8px;">Target: <code>dating_success</code> &nbsp;·&nbsp; 1 = Relationship Formed / Date Happened &nbsp;·&nbsp; 0 = Others</p>',unsafe_allow_html=True)
-=======
-            st.markdown(f'<div style="background:{bg};color:{fg};border-radius:10px;padding:10px 4px;text-align:center;font-size:12px;font-weight:500;">{label}</div>',unsafe_allow_html=True)
-    st.markdown('<p style="font-size:11px;color:#888780;margin-top:8px;">Target: <code>dating_success</code> &nbsp;·&nbsp; 1 = Relationship Formed / Date Happened &nbsp;·&nbsp; 0 = Others</p>',unsafe_allow_html=True)
->>>>>>> b3816f81789a10d7621f5dd9f43eaa8b2c93ffde
 
 with tab2:
     st.markdown("### F1 score — primary metric")
