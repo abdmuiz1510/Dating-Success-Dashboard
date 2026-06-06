@@ -28,7 +28,7 @@ BLUE="#378ADD"; BLUE_L="#B5D4F4"; GREEN="#639922"
 AMBER="#EF9F27"; RED="#E24B4A"; GRAY="#D3D1C7"
 
 st.markdown("""
-<h1 style='font-size:20px;font-weight:500;margin-bottom:2px;'>Swipe Smarter or Swipe More?</h1>
+<h1 style='font-size:40px;font-weight:500;margin-bottom:2px;'>Swipe Smarter or Swipe More?</h1>
 <p style='color:#888780;font-size:16px;margin-bottom:10px;'>Investigating the impact of excessive swiping on dating success &nbsp;·&nbsp; ML Project Dashboard</p>
 <span class="tag">50,000 records</span>
 <span class="tag">5 models trained</span>
