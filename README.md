@@ -1,19 +1,32 @@
-# Swipe Smarter or Swipe More? — Project Dashboard
+# Swipe More or Swipe Smart: Investigating the Impact of Excessive Swiping on Dating Success
 
-# WIA1006 Machine Learning Group Assignment 
+This dashboard was developed as part of our Machine Learning group project. It allows users to explore how dating app behaviour may influence dating success.
 
-## How to run
+Users can input several dating app behaviour features, such as:
 
-1. Install dependencies:
-   pip install -r requirements.txt
+- Swipe-right ratio
+- Mutual matches
+- Likes received
+- Messages sent
+- App usage time
+- Bio length
+- Emoji usage rate
+- Age
+- Gender
 
-2. Run the app:
-   streamlit run app.py
+Based on these inputs, the dashboard predicts the probability of dating success using our trained Logistic Regression model.
 
-3. Open your browser at:
-   http://localhost:8501
 
-## Files
-- app.py            → main Streamlit dashboard
-- requirements.txt  → Python dependencies
-- README.md         → this file
+## Dashboard Link
+
+Click the link below to run the dashboard:
+
+https://dating-success-dashboard-35w24oketik3sb4hgptyne.streamlit.app/
+
+
+## Purpose
+
+The purpose of this dashboard is to demonstrate how our machine learning model can be applied in a simple and interactive way. It helps users understand that dating success is not only affected by swiping more, but also by engagement and interaction patterns.
+
+
+"Swipe smart, not just more"
