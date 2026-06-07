@@ -1,6 +1,6 @@
 # Swipe Smarter or Swipe More? — Project Dashboard
 
-WIA1006 Machine Learning Group Assignment muzihensem
+WIA1006 Machine Learning Group Assignment 
 
 ## How to run
 
